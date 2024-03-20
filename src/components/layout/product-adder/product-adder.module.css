@@ -1,0 +1,90 @@
+.wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0; 
+    z-index: 1;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adder_box {
+    width: 50%;
+    max-width: 35rem;
+    height: fit-content;
+
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.cross {
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.image_adder {
+    max-width: 5rem;
+    padding: 1rem 0.5rem;
+    margin-block: 1rem;
+    background-color: #f7f6f9;
+    border-radius: 0.7rem;
+    cursor: pointer;
+}
+
+.image_adder_icon {
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+}
+
+.image_adder_text {
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #5458ea;
+    text-align: center;
+}
+
+.gallery {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    overflow-x: auto;
+}
+
+.image {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 0.7rem;
+    object-fit: cover;
+}
+
+.input {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.7rem;
+    background-color: #f7f6f9;
+    outline: none;
+}
+
+.btn {
+    margin: 0 auto;
+    padding: 0.5rem 4rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 1rem;
+}

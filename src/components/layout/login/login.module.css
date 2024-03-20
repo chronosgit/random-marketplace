@@ -1,0 +1,68 @@
+.page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.splash {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: url("/src/assets/images/auth-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    right: 1rem;
+
+    --size: 10rem;
+    width: var(--size);
+    height: var(--size);
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-family: "GothamPro";
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.auth_form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth_form > * {
+    width: 50%;
+}
+
+.input_username_wrapper {
+    margin-bottom: 2rem;
+}
+
+.btn {
+    margin-top: 4rem;
+    padding-block: 0.5rem;
+    font-family: "GothamPro";
+    font-size: 1rem;
+    border: none;
+    border-radius: 5rem;
+}
+
+.link {
+    margin-top: 8rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center;
+}

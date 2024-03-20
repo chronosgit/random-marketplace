@@ -1,0 +1,64 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.logo_box {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.logo {
+    --size: 3rem;
+    width: var(--size);
+    height: var(--size);
+}
+
+.company_name {
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.btn {
+    padding: 0.8rem 1rem;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 5rem;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.profile_bio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.name {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.profile_avatar {
+    --size: 3.5rem;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+}

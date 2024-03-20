@@ -1,0 +1,65 @@
+html {
+	font-family: "GothamPro", Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+	font-family: "GothamPro";
+	src: url("/src/assets/fonts/gothampro.ttf");
+}
+
+@font-face {
+	font-family: "GothamPro";
+	src: url("/src/assets/fonts/gothampro_medium.ttf");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "SFPro";
+	src: url("/src/assets/fonts/SFProText-Regular.ttf");
+}
+
+@font-face {
+	font-family: "SFPro";
+	src: url("/src/assets/fonts/SFProText-Medium.ttf");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "SFPro";
+	src: url("/src/assets/fonts/SFProText-Semibold.ttf");
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "SFPro";
+	src: url("/src/assets/fonts/SFProText-Bold.ttf");
+	font-weight: 700;
+}
+
+body {
+	margin: 0;
+	overflow-x: hidden;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "GothamPro";
+	box-sizing: border-box;
+}
+
+button {
+	background: none;
+	cursor: pointer;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}

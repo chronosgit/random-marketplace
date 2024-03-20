@@ -1,0 +1,31 @@
+.box {
+    min-width: 8rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(6rem, 1rem);
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.setting_box {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.setting_icon {
+    --size: 1.7rem;
+    width: var(--size);
+    height: var(--size);
+}
+
+.setting_text {
+    font-weight: 500;
+    color: #494949;
+}

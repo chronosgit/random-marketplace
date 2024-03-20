@@ -1,0 +1,51 @@
+.product {
+    position: relative;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 0.75rem;
+}
+
+.image {
+    width: 100%;
+    max-height: 5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.375rem;
+    object-fit: cover;
+}
+
+.name {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.price {
+    margin-bottom: 1rem;
+    word-wrap: break-word;
+}
+
+.product_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.like_box {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.like_icon,
+.settings {
+    --size: 1.5rem;
+    max-width: var(--size);
+    max-height: var(--size);
+    cursor: pointer;
+}
+
+.like_number {
+    color: #c9c9c9;
+}
